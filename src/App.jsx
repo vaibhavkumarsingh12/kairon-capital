@@ -4,7 +4,7 @@ import {
   Leaf, 
   Coffee, 
   Heart,
-  Instagram,
+  Camera,
   TrendingUp,
   Search,
   CheckCircle,
@@ -89,7 +89,7 @@ function App() {
               </div>
               
               <div className="brand-stats">
-                <Instagram size={16} />
+                <Camera size={16} />
                 <span>{brand.followers}</span>
               </div>
               
@@ -121,7 +121,7 @@ function App() {
                 </div>
               </li>
               <li className="methodology-item">
-                <div className="method-icon"><Instagram size={24} /></div>
+                <div className="method-icon"><Camera size={24} /></div>
                 <div className="method-content">
                   <h4>Follower Verification</h4>
                   <p>Instagram counts were audited via headless browser to ensure they fall strictly below the 30,000 follower limit.</p>
